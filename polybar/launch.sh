@@ -6,7 +6,7 @@ THEME="minimal"
 killall polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
-CONFIG_FILE="$HOME/.local/share/dwm-titus/polybar/themes/$THEME/config.ini"
+CONFIG_FILE="$HOME/.local/share/dwm-rahul/polybar/themes/$THEME/config.ini"
 
 # Check if xrandr is available and get monitor list
 if command -v xrandr > /dev/null 2>&1; then
